@@ -24,7 +24,7 @@ import {ref} from 'vue'
 const counter = ref(0);
 const yesC = ref(false);
 const yesSize = ref(100);
-const arr = ["No","Are you sure?","Really?","U would do that to us?","I cant believe you rn","You cant be srs","Dont","please?","pleaseee","PLEASEE"]
+const arr = ["No","Are you sure?","Really?","U would do that to us?","I cant believe you rn","You cant be srs","ZONT","please?","pleaseee","PLEASEE"]
 
 function incrementCounter(){
   if(counter.value == arr.length -1){
